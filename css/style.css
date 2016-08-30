@@ -1,0 +1,128 @@
+header{
+	display: flex;
+	flex-wrap: wrap;
+}
+figcaption{
+		margin-top: 0px;
+}
+
+.top-line{
+	display: flex;
+}
+
+.info{
+	text-align: right;
+}
+
+
+.featured-work{
+
+}
+
+@media screen and (max-width: 450px){
+	.top-line{
+		margin-top: calc(100% - 95%);
+	}
+	.name{
+		font-size: 1.4em;
+		margin-bottom: 0px;
+	}
+	.title{
+		font-size: 1em;
+		margin-top: 0px;
+	}
+	.info{
+		width: 75%;
+		padding: 0px;
+	}
+	.logo{
+		width: 25%;
+	}
+	.close{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.introduction{
+		font-size: 1em;
+	}
+	.featured-work-heading{
+		font-size: 1.5em;
+		color: #7d97ad;
+	}
+	.featured-work{
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 2%;
+	}
+	.main-pic{
+		margin: 0 auto;
+	}
+
+	.project-1{
+		order: -3;
+	}
+	.project-2{
+		order: -2;
+	}
+	.project-3{
+		order: -1;
+	}
+	.placeholder-title{
+		font-size: 1.5em;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+
+@media screen and (min-width: 451px) and (max-width: 767px){
+	.top-line{
+		margin-top: calc(100% - 95%);
+	}
+	.name{
+		margin-top: calc((20% - 40px)/2);
+		margin-bottom: 0px;
+	}
+	.title{
+		margin-top: 0px;
+	}
+	.info{
+		width: 75%;
+		padding: 0px;
+		}
+	.logo{
+		width: 25%;
+	}
+	.introduction{
+		font-size: 1.2em;
+	}
+	.featured-work-heading{
+		font-size: 1.5em;
+		color: #7d97ad;
+	}
+	.featured-work{
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 2%;
+	}
+	.center-pic{
+		width: 100%;
+	}
+	.main-pic{
+		margin: 0 auto;
+	}
+	.project-1{
+		order: -3;
+	}
+	.project-2{
+		order: -2;
+	}
+	.project-3{
+		order: -1;
+	}
+	.placeholder-title{
+		font-size: 1.5em;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
