@@ -246,6 +246,7 @@ figure {
 img {
   vertical-align: middle;
 }
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -1438,6 +1439,7 @@ address {
   .modal-sm {
     width: 300px;
   }
+  
 }
 @media (min-width: 992px) {
   .modal-lg {
